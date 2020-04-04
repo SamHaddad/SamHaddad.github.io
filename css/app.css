@@ -48,67 +48,43 @@ h6 {
   letter-spacing: 0.1rem;
 }
 
-header.masthead {
+
+header {
   position: relative;
+  background-color: black;
+  height: 75vh;
+  min-height: 25rem;
+  width: 100%;
   overflow: hidden;
-  padding-top: calc(4rem + 1px);
-  padding-bottom: 0.25rem;
-  background:#303841;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: scroll;
-  background-size: cover;
 }
 
-header.masthead .masthead-content {
-  z-index: 1;
-  position: relative;
-  background-image: url(../img/IMG_74181.jpg);
-  height: 50vh;
-  min-height: 500px;
-  background-position: center center;
-  background-size: cover;
-}
-
-header.masthead .masthead-content .masthead-heading {
-  font-size: 3rem;
-}
-
-header.masthead .masthead-content .masthead-subheading {
-  font-size: 1.5rem;
-}
-
-header.masthead .bg-circle {
-  z-index: 0;
+header video {
   position: absolute;
-  border-radius: 100%;
-  background: linear-gradient(0deg, #be3144 0%, #303841 100%);
+  top: 70%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
 }
 
-header.masthead .bg-circle-1 {
-  height: 90rem;
-  width: 90rem;
-  bottom: -55rem;
-  left: -55rem;
+header .container {
+  position: relative;
+  z-index: 2;
 }
 
-header.masthead .bg-circle-2 {
-  height: 50rem;
-  width: 50rem;
-  top: -25rem;
-  right: -25rem;
-}
-
-header.masthead .bg-circle-3 {
-  height: 20rem;
-  width: 20rem;
-  bottom: -10rem;
-  right: 5%;
-}
-
-header.masthead .bg-circle-4 {
-  height: 30rem;
-  width: 30rem;
-  top: -5rem;
-  right: 35%;
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.3;
+  z-index: 1;
 }
