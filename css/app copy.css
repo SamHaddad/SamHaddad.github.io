@@ -28,11 +28,10 @@ h6 {
   border-radius: 5rem;
 }
 
-
 .navbar-custom {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .navbar-custom .navbar-brand {
@@ -82,7 +81,7 @@ header .container {
 
 header .overlay {
   position: absolute;
-  top: 0;
+  top: -10;
   left: 0;
   height: 100%;
   width: 100%;
